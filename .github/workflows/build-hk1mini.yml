@@ -9,16 +9,11 @@
 name: Build HK1 Mini Targets
 
 on:
-  repository_dispatch:
-    types: [targets]
+
   workflow_dispatch:
-    inputs:
-      INPUT_TARGET:
-        description: "Target to build (platform/target/subtarget)"
-        required: false
-        default: "all"
-  schedule:
-    - cron: 0 8 * * *
+
+
+
 
 env:
   SOURCE_URL: https://github.com/immortalwrt/immortalwrt
