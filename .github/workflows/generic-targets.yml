@@ -17,8 +17,8 @@ on:
         description: "Target to build (platform/target/subtarget)"
         required: false
         default: "all"
-  schedule:
-    - cron: 0 2 * * *
+  #schedule:
+    #- cron: 0 2 * * *
 
 env:
   SOURCE_URL: https://github.com/immortalwrt/immortalwrt
